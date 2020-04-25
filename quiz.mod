@@ -1,6 +1,6 @@
 A.¿Cuál es la ventaja de que JavaScript sea un lenguaje 
 interpretado-compilado?
---- que corre en casi todos los navegadores y permite corregir errores?
+ -- Que se ejecuta en tiempo real, * *just in time compilation* *
 
 B.¿Cuál es la diferencia entre null y undefined?
  -- Entiendo por null que es un valor que es vacio y
@@ -17,9 +17,9 @@ C.Explica el concepto de ​type coercion
 
     true && !( false === (!true)); 
     true && !( false === (false)); 
-    true && !( false); 
-     True && True; 
-    Answer: True
+    true && !(True); 
+     True && False; 
+   ** Answer: False**
 
 
  null !== undefined && !"": // 
